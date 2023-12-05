@@ -11,7 +11,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let foo = UILabel()
+        view.addSubview(foo)
+        foo.translatesAutoresizingMaskIntoConstraints = false
+        foo.text = "123"
     }
 
 
