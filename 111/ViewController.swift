@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         view.addSubview(foo)
         foo.translatesAutoresizingMaskIntoConstraints = false
         foo.text = "123"
+        foo.textColor = .red
     }
 
 
