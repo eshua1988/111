@@ -17,6 +17,13 @@ class ViewController: UIViewController {
         foo.translatesAutoresizingMaskIntoConstraints = false
         foo.text = "123"
         foo.textColor = .red
+        
+        let foo2 = UILabel()
+        view.addSubview(foo)
+        foo2.translatesAutoresizingMaskIntoConstraints = false
+        foo2.text = "123"
+        foo2.textColor = .red
+        foo2.backgroundColor = .gray
     }
 
 
